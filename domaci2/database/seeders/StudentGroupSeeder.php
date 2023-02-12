@@ -1,0 +1,19 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\StudentGroup;
+use Illuminate\Database\Seeder;
+
+class StudentGroupSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        StudentGroup::factory(8)->create();
+    }
+}
